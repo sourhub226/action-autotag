@@ -1,11 +1,11 @@
 name: "Flutter Tag"
 description: "Automatically generate new tags when the pubspec.yaml version changes."
-author: "Jacopo Carlini"
+author: "Sourabh Sathe"
 branding:
   icon: "tag"
   color: "blue"
 inputs:
-  GITHUB_TOKEN:
+  github_token:
     description: "Required for permission to tag the repo."
     required: true
   package_root:
